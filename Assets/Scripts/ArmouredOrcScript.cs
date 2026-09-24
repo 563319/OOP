@@ -16,7 +16,7 @@ public class ArmouredOrcScript : OrcScript
     public override void AttackPlayer()
     {
 
-        OuputText("Armoured Orc is attacking player");
+        ChangeText("Armoured Orc is attacking player");
     }
 
 }

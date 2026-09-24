@@ -16,6 +16,6 @@ public class FriendlyOrcScript : OrcScript
     public override void AttackPlayer()
     {
 
-        OuputText("Friendly Orc is attacking player");
+        ChangeText("Friendly Orc is attacking player");
     }
 }

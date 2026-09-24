@@ -16,6 +16,6 @@ public class OrcScript : EnemyBase
     public override void AttackPlayer()
     {
         //print("Orc is attacking player");
-        OuputText("Orc is attacking player");
+        ChangeText("Orc is attacking player");
     }
 }
