@@ -16,7 +16,7 @@ public class EnemyBase : MonoBehaviour
     public virtual void AttackPlayer()
     {
         print("Enemy is attacking player");
-        text.text = ("Enemy is attacking player");
+        OuputText("Enemy is attacking player");
     }
     void OnMouseOver()
     {
@@ -28,6 +28,10 @@ public class EnemyBase : MonoBehaviour
     {
         transform.GetComponent<SpriteRenderer>().color = Color.white;
         //DebugText("");
+    }
+    protected void OuputText(string input)
+    {
+        text.text = input;
     }
     
 }
